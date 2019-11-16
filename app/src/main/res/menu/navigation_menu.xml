@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/face_recognition"
+        android:icon="@mipmap/face_recognition"
+        android:title="人脸识别" />
+    <item
+        android:id="@+id/face_detect"
+        android:icon="@mipmap/face_detect"
+        android:title="人脸检测" />
+    <item
+        android:id="@+id/face_comparse"
+        android:icon="@mipmap/face_comparse"
+        android:title="人脸对比" />
+    <item
+        android:id="@+id/face_retrieval"
+        android:icon="@mipmap/face_retrieval"
+        android:title="人脸检索"
+        />
+
+</menu>

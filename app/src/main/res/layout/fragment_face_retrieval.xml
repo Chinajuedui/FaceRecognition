@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.FaceRetrievalFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/retrieval_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom">
+        <ImageView
+            android:id="@+id/retrieval_iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button
+            android:id="@+id/retrieval_btn_camera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="拍照"
+            android:background="@drawable/btn_bg"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"/>
+        <Button
+            android:id="@+id/retrieval_btn_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="相册"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"/>
+        <Button
+            android:id="@+id/retrieval_btn_retrieval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="人脸检索"
+            android:background="@drawable/btn_bg"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/retrieval_lv_users"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
